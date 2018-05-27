@@ -1,5 +1,7 @@
 # yichin
 
+`$ pip3 install yichin`
+
 I love yichin!!!
 
 This algorithm use Zero-width space to hide the message into string "yichin".
@@ -11,11 +13,13 @@ https://pypi.org/project/yichin/
 ```
 import yichin
 
+# input type string return type string
 yichin.encode("Jellyfish")
->> yic⁤⁪⁦⁥⁦⁬⁦⁬⁧⁩⁦⁦⁦⁩⁧⁣⁦⁨hin
+>> 'yic⁤⁪⁦⁥⁦⁬⁦⁬⁧⁩⁦⁦⁦⁩⁧⁣⁦⁨hin'
 
+# input type string return type string
 yichin.decode("yic⁤⁪⁦⁥⁦⁬⁦⁬⁧⁩⁦⁦⁦⁩⁧⁣⁦⁨hin")
->> Jellyfish
+>> 'Jellyfish'
 ```
 
 ## pypi tutorial
