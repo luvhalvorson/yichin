@@ -9,9 +9,5 @@ setup(
   url='https://github.com/killua4564/yichin/',
   download_url='https://github.com/killua4564/yichin/blob/master/dist/yichin-0.1.tar.gz',
   keywords=['yichin', 'encode', 'decode', 'whitespace'],
-  classifiers=(
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-  ),
+  classifiers=[]
 )
