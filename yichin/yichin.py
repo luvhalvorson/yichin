@@ -17,4 +17,4 @@ def encode(yichins):
 	return yichin_join([YICHIN_STRING[:3]] + [yichin_chr(yichin_int(yichin, 16) + YICHIN_NUMBER) for yichin in yichin_str(yichin_hex(yichin_bytes(yichins, YICHIN_ENCODE)), YICHIN_ENCODE)] + [YICHIN_STRING[3:]])
 
 def decode(yichins):
-	return yichin_str(yichin_unhex(yichin_join([yichin_hex(ord(yichin) - YICHIN_NUMBER)[2:] for yichin in yichin_strip(yichins, YICHIN_STRING)])), YICHIN_ENCODE)
+	return yichin_str(yichin_unhex(yichin_join([hex(ord(yichin) - YICHIN_NUMBER)[2:] for yichin in yichin_strip(yichins, YICHIN_STRING)])), YICHIN_ENCODE)
