@@ -2,8 +2,6 @@
 
 `$ pip3 install yichin`
 
-I love yichin!!!
-
 This algorithm use Zero-width space to hide the message into string "yichin".
 
 https://pypi.org/project/yichin/
